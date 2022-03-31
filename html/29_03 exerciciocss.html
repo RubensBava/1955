@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Principais tags-formulario</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Rubens">
+    <meta name="description" content="Aprenda a fazer um html">
+    <meta name="keywords" content="HTML5,CSS3,JS">
+    <link rel="styleSheet" href="../CSS/29_03exercicio.css">
+</head>
+
+<body>
+    <form action="#" method="PHOST" target="_self">
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            <label for="txtUsuario">Nome:</label>
+            <input type="text" id="txtUsuario" name="user" min="10" max="80" required>
+            <br><br>
+            <label>E-mail</label>
+            <input type="email" required placeholder="informe um email válido" >
+            <br><br>
+            <label>Data de nascimento</label>
+            <input type="date" min="01-01-1900" max="29-03-2022">
+            <br><br>
+            <label>Área de atuação</label>
+            <select name="Área de atuação" id="opcaoArea" required>
+                <option>Área da TI</option>
+                <option>Área Civil</option>
+                <option>Área Militar</option>
+                <option>Administração Pública</option>
+                <option>Ciências Atuariais</option>
+                <option>Administração</option>
+                <option>Comércio</option>
+                <option>Área escolar</option>
+                <option>Outro...</option>
+            </select>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Resumo das principais atividades desenvolvidas</legend>
+            <textarea style="resize: none;" name="msg" cols="150" rows="5" min="5"></textarea>
+
+            <label id="certeza"><input type="checkbox">tenho certeza</label>
+        </fieldset>
+
+        <input type="submit" value="mandar" id="enviar">
+        <input type="reset" value="apagar" id="apagar"> 
+<p>Texto para utilizar mais efeitos no CSS,teste teste teste teste teste teste teste teste teste</p>
+
+    
+
+    </body>
