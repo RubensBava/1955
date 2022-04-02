@@ -10,3 +10,8 @@ label
     {background-color: red;}
 body 
     {background-color: azure;}
+
+
+    p {background-color: brown;
+    border-radius: 2em; color: antiquewhite;
+    border-bottom: 1em; color: aquamarine;}
