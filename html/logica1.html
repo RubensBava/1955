@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-<title>html - base</title>
-<meta charset="UTF-8">
-<meta name="author" content="Rubens">
-<meta name="description" content="Aprenda a fazer um html">
-<meta name="keywords" content="HTML5,CSS3,JS">
+   <title>html - base</title>
+   <meta charset="UTF-8">
+   <meta name="author" content="Rubens">
+   <meta name="description" content="Aprenda a fazer um html">
+   <meta name="keywords" content="HTML5,CSS3,JS">
 </head>
 
-<body>
-   <style>
-h1 { border-bottom-style:double ;color: antiquewhite;
-text-align: center;}
 
-
-   </style>
+<style>
+   h1 {
+      border-bottom-style: double;
+      color: antiquewhite;
+      text-align: center;
+   }
+</style>
 
 <script>
-document.write('<h1>LOGICA DO JAVA SCRIPT</h1>')
 
-document.whrite('<h2> Não entendi muito bem o por que esta dentro do script</h2>')
+   var numeroinformado = parseInt(prompt('informe um número'))
 
+   var numeroinicial = 1
+   var numerofinal = 10
 
+   for (numeroinicial; numeroinicial <= numerofinal; numeroinicial++) {
 
-
-
+      document.write('<div>Número atual ' +numeroinicial+ '</div>')
+      document.write('<hr>')
+   }
 </script>
 
+<body>
 </body>
 
 
